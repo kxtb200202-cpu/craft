@@ -1,0 +1,12 @@
+# Runtime dependencies of CRAFT (Python >= 3.10).
+#
+# Versions pinned to the environment the reported experiments were run in (2026-09).
+# Install with:  pip install -r requirements.txt
+#
+# Not covered here:
+# - LLM / embedding / RAGFlow endpoints and API keys are configured in craft/.env;
+# - RAGFlow itself is an external Docker service, not a pip package.
+
+python-dotenv==1.0.1
+openai==2.30.0
+requests==2.32.5
